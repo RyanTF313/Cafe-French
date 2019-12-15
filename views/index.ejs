@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cafe French</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h1>Welcome to Cafe French!</h1>
+
+    <section>
+      <button type="button" name="button" class="start">Start Order</button>
+      <h4 class="cashier"></h4>
+    </section>
+    <section class="window">
+      <section id="output">
+        <p class="output"></p>
+      </section>
+      <section class="question">
+        <form class="confirm">Is this correct?
+          <input type="checkbox" name="true" value="true"> True
+          <input type="checkbox" name="false" value="false"> False
+        </form>
+      </section>
+    </section>
+    <section id="receipt">
+      <h3>Receipt</h3>
+      <label for="name">name</label>
+      <input type="text" class="name" name="name" value="">
+      <label for="drink">drink</label>
+      <input type="text" class="drink" name="drink" value="">
+      <label for="size">size</label>
+      <input type="text" class="size" name="size" value="">
+      <label for="flavor">flavor</label>
+      <input type="text" class="flavor" name="flavor" value="">
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/speech.js"></script>
+  </body>
+</html>
